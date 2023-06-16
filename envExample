@@ -1,0 +1,54 @@
+NODE_ENV =production
+# Server listen to this port
+PORT=3000
+
+#Cors
+CORS_URL=*
+ 
+JWT_SECRET_KEY = ticket-system  
+TOKEN_HEADER_KEY = ticket-system  
+
+DB_HOST_READER=catchysystem.com
+DB_HOST_WRITER=catchysystem.com
+
+# Databse
+# DB_NAME=csteam_rahul
+DB_NAME = csteam_ticket
+
+# DB_PORT
+DB_PORT=3306
+
+
+DB_USER = csteam_db
+# DB_USER=root
+
+DB_USER_PWD="csteam@123#123"
+# DB_USER_PWD=""
+
+#Error controller place holder
+ecPlaceHolder="{place-holder}"
+
+PRIVATE_KEY = '-----BEGIN RSA PRIVATE KEY-----
+MIICXQIBAAKBgQDHPxJV+ZGVwGdb/HIDxHkwSliVmf/9n3nFybFpO0uZ6XBxmm/Y
+Rxo3u1Ce65dxS4/+fM5oCMZCCPfhNm6ak/h2O1/kOTxSbfdIvUDdWioVB/rDUTiN
++QLx2XktV4L4ZT3BvuipnfaCv9KH6W4nBjuCYNITEdQ2qAkGc+1zQmq7hQIDAQAB
+AoGAO6MFOfaZPNl6Fm5ZMgd8vpeCLEUL+j3hlPHpyDWXS1oz7czr7TBbCJNobijW
+C3MyhlmU7k6yCNHmX+KK+HmRxEqF3JViUJu24auCcTGVYuZ8hYymus73STGNsiIc
+GJ5zBv1f14yBSweWTlFUqFmLUx0dzO53Hgm8qhh/FeDtd4ECQQDm2T/ytBMpKDjV
+nDa7pSJaswtuyAt5kZpklg9sVSgiTWUkiHVi5vknmwA03goafmmWZUYemIHg2/YU
+2E3jL2t7AkEA3PRh766W/o0c0d+T+4/00Z7X6+JsFLbEwdkLwTs/AGK32O3r0lT4
++5e2y+kl7FEvpkoB09vojTI78fbjzkZE/wJBAI71955MWplgaWIQLe0jJRVaUDg4
+9rJAs4abT83dJs+ncn2fbGLle2NFoGkdINCrfKRA752/AJ/KWKksE4AgO8UCQFK/
+s23wFNyAPKrc8K7l2uomcvcEdTXMvSNcBer4JUAfuHqloAvFhvmyd+MmDe3S+eVt
+EgIl+ZHnnkugCvDVoEECQQCknHU7Z0vVv2EhBEaWdEn1jNOAo5hcJvfw/bESU3Eb
+WWMNirS7l9kK3JQ6PiSxCu+k6mLbjb5NiUg+VEhRKAd4
+-----END RSA PRIVATE KEY-----'
+
+PUBLIC_KEY = '-----BEGIN PUBLIC KEY-----
+MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDHPxJV+ZGVwGdb/HIDxHkwSliV
+mf/9n3nFybFpO0uZ6XBxmm/YRxo3u1Ce65dxS4/+fM5oCMZCCPfhNm6ak/h2O1/k
+OTxSbfdIvUDdWioVB/rDUTiN+QLx2XktV4L4ZT3BvuipnfaCv9KH6W4nBjuCYNIT
+EdQ2qAkGc+1zQmq7hQIDAQAB
+-----END PUBLIC KEY-----'
+
+JWT_SECRET_KEY = "JWT_KEY_256"

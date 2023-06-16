@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        // Import non-ES modules as default imports.
+        "esModuleInterop": true,
+        // Target latest version of ECMAScript.
+        "target": "es6",
+        // Process & infer types from .js files.
+        "allowJs": false,
+        // Enable strictNullChecks & noImplicitAny.
+        "strictNullChecks": true,
+        "noImplicitAny": true,
+        "strict": true,
+        "strictFunctionTypes": false,
+        "noImplicitThis": false,
+        // Search under node_modules for non-relative imports.
+        "moduleResolution": "node",
+        // Import .json files
+        "resolveJsonModule": true,
+        "sourceMap": false,
+        "outDir": "dist",
+        "baseUrl": ".",
+        "paths": {
+            "*": [
+                "node_modules/*"
+            ]
+        }
+    },
+    "include": [
+        "src/**/*"
+    ]
+    // "exclude": [".templates"]
+}
